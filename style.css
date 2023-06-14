@@ -1,0 +1,29 @@
+html,
+body {
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    background-color: #efeff5;
+}
+table:first-child tr:first-child td {
+    background-color: #dfdfdf;
+    font-weight: 600;
+}
+tr:last-child td {
+    background-color: #f7f7f7;
+    font-weight: 600;
+}
+td {
+    background-color: #ffffff;
+    padding: 7px;
+}
